@@ -77,7 +77,9 @@ class Board extends React.Component {
         }
 
         return (
+            
             <div>
+                <div class="unittest">Check if the unit test Passed!</div>
                 <div className="status">{status}</div>
                 <button onClick={() => this.reset()}>Reset</button>
                 <div className="board-row">
